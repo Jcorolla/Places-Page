@@ -1,7 +1,6 @@
 import Ember from 'ember';
 
-var = 'person':
-{
+var = person: [
   "id": ,
   "name": ,
   "witty_title": ,
@@ -29,7 +28,7 @@ var = 'person':
     "unread_count": ,
     "html_url":
   }
-}
+]
 
 export default Ember.Route.extend({
   model() {

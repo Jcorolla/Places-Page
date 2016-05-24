@@ -1,6 +1,5 @@
 import Ember from 'ember';
-
-var = "area": [
+var = area: [
   {
     "id": ,
     "name": 'New Haven',
@@ -22,7 +21,7 @@ var = "area": [
     "html_url": ,
     "html_report_url":
   },
-
+]
 export default Ember.Route.extend({
   model() {
     return area;
